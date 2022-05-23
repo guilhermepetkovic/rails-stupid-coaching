@@ -1,0 +1,51 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$a-color: #8CBCB9;
+$a-color-hover: #658A88;
+$border-color: #DDDDDD;
+$answer-bg-color: #FFFFE1;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+a {
+  color: $a-color;
+  text-decoration: none;
+  margin: 20px;
+  &:hover {
+    color: $a-color-hover;
+  }
+}
+
+.paragraph {
+  padding: 5px;
+  border-left: 6px solid $border-color;
+  margin: 20px;
+}
+
+.answer{
+background-color: $answer-bg-color;
+}
+
+input[type=submit] {
+  color: #fff;
+  font-size: 1rem;
+  background-color: #007bff;
+  border-radius: 0 0.25px 0.25px 0;
+  border-color: #007bff;
+
+}
+
+input[type=text] {
+  width: 200px
+}
